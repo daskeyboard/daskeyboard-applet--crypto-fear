@@ -1,0 +1,44 @@
+{
+  "name": "daskeyboard-applet--fng-index",
+  "displayName": "FNG Index",
+  "version": "1.0.0",
+  "description": "Displays the current Crypto Fear & Greed Index.",
+  "longDescription": "Get real-time visual feedback on cryptocurrency market sentiment, from extreme fear to extreme greed.",
+  "officialProductName": "FNG Index",
+  "publisherName": "Das Keyboard",
+  "publisher": "Das Keyboard",
+  "authorName": "Das Keyboard",
+  "authorUrl": "https://github.com/daskeyboard",
+  "issuesUrl": "https://github.com/Rubiksel/daskeyboard-applet--fng-index/issues",
+  "developerRepoUrl": "https://github.com/Rubiksel/daskeyboard-applet--fng-index",
+  "homePageUrl": "https://github.com/Rubiksel/daskeyboard-applet--fng-index",
+  "isSingleton": false,
+  "videoUrl": "",
+  "icon": "assets/icon.png",
+  "image": "assets/image.png",
+  "readMeUrl": "README.md",
+  "readMeEndUserUrl": "README_ENDUSER.md",
+  "changelogUrl": "CHANGELOG.md",
+  "license": "MIT",
+  "licenseUrl": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+  "engines": {
+    "das-keyboard-q": "4.1.3"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "daskeyboard-applet": "^2.11.5",
+    "node-fetch": "^2.6.7"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "qConfig": {
+    "geometry": {
+      "width": 1,
+      "height": 1
+    }
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
