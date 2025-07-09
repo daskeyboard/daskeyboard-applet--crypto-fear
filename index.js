@@ -38,13 +38,13 @@ class CryptoFNGIndex extends q.DesktopApp {
       effect = "BLINK";
     } else if (data.value_classification === "Neutral") {
       color = "#FFDD00"; // yellow
-      effect = "SET_COLOR";
+      effect = "BLINK";
     } else if (data.value_classification === "Greed") {
       color = "#66CC33"; // green
       effect = "BLINK";
     } else if (data.value_classification === "Extreme Greed") {
       color = "#00FF00"; // bright green
-      effect = "SET_COLOR";
+      effect = "BLINK";
     } else {
       color = "#000000"; // fallback black
       effect = "SET_COLOR";
@@ -57,8 +57,8 @@ class CryptoFNGIndex extends q.DesktopApp {
   }
 
   async run() {
-    cryptoFNGIndex = await this.getCryptoFNGIndex();
-    return this.generateSignal();
+    const cryptoFNGIndex = await this.getCryptoFNGIndex();
+    return this.generateSignal(cryptoFNGIndex);
   }
 }
 
