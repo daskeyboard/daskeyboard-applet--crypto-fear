@@ -37,7 +37,7 @@ class CryptoFNGIndex extends q.DesktopApp {
       color = "#FF6600"; // orange
       effect = "BLINK";
     } else if (data.value_classification === "Neutral") {
-      color = "#AAAAAA"; // gray
+      color = "#FFDD00"; // yellow
       effect = "SET_COLOR";
     } else if (data.value_classification === "Greed") {
       color = "#66CC33"; // green
@@ -55,7 +55,15 @@ class CryptoFNGIndex extends q.DesktopApp {
       message: message,
     });
   }
+
+  async run() {
+    cryptoFNGIndex = await this.getCryptoFNGIndex();
+    return this.generateSignal();
+  }
 }
+
+module.exports = { CryptoFNGIndex: CryptoFNGIndex };
+const applet = new CryptoFNGIndex();
 
 if (require.main === module) {
   const applet = new CryptoFNGIndex();
