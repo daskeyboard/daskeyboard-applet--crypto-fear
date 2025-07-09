@@ -42,12 +42,9 @@ class CryptoFNGIndex extends q.DesktopApp {
     } else if (data.value_classification === "Greed") {
       color = "#66CC33"; // green
       effect = "BLINK";
-    } else if (data.value_classification === "Extreme Greed") {
+    } else {
       color = "#00FF00"; // bright green
       effect = "BLINK";
-    } else {
-      color = "#000000"; // fallback black
-      effect = "SET_COLOR";
     }
     return new q.Signal({
       points: [[new q.Point(color, effect)]],
