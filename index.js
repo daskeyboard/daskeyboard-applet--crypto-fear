@@ -5,7 +5,7 @@ const logger = q.logger;
 class CryptoFNGIndex extends q.DesktopApp {
   constructor() {
     super();
-    this.pollingInterval = 0.5 * 60 * 60 * 1000; // updates once every 30 minutes
+    this.pollingInterval = 60 * 10 * 1000; // updates once every 10 minutes
 
     logger.info("Crypto FNG Index ready to launch!");
   }
