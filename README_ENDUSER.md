@@ -29,23 +29,3 @@ Always do your own research and consult with a financial advisor before making a
 1. **Install this applet** in the Das Keyboard Q software
 2. **Assign the applet to any key** on your keyboard
 3. Watch the key light up based on today’s market sentiment!
-
-> Tip: Use it as a daily market check-in. Let your keyboard tell you when the market’s in fear… or FOMO.
-
----
-
-## 📦 How It Works
-
-- The applet polls the Fear & Greed Index once every 24 hours
-- It shows color-coded signals based on the daily sentiment
-- Uses Das Keyboard’s LED effects to display **blinking colors** that match market mood
-
-### Signal Logic
-
-| Sentiment     | Color        | Effect   |
-| ------------- | ------------ | -------- |
-| Extreme Fear  | 🔴 `#FF0000` | Blinking |
-| Fear          | 🟠 `#FF6600` | Blinking |
-| Neutral       | 🟡 `#FFDD00` | Blinking |
-| Greed         | 🟢 `#66CC33` | Blinking |
-| Extreme Greed | 💚 `#00FF00` | Blinking |
