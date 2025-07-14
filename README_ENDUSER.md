@@ -17,14 +17,14 @@ Always do your own research and consult with a financial advisor before making a
 
 ## 📊 Applet Features
 
-![Crypto FNG Applet Preview](assets/image.png "Crypto FNG Index")
-
 - 🔴 **Red glow** when sentiment is **Extreme Fear**
 - 🟠 **Orange glow** for **Fear**
 - 🟡 **Yellow glow** for **Neutral**
 - 🟢 **Green glow** for **Greed**
 - 💚 **Bright green glow** for **Extreme Greed**
 - 📡 Powered by real-time data from [alternative.me](https://alternative.me/crypto/fear-and-greed-index/)
+
+![Crypto FNG Applet Preview](assets/image.png "Crypto FNG Index")
 
 ## ⚙️ Setup Instructions
 
