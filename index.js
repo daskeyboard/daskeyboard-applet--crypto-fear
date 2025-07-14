@@ -27,24 +27,19 @@ class CryptoFNGIndex extends q.DesktopApp {
 
   generateSignal(data) {
     let color;
-    let effect;
+    let effect = "SET_COLOR;
     let message = `Crypto Market Status: ${data.value_classification} (${data.value}/100)`;
 
     if (data.value_classification === "Extreme Fear") {
       color = "#FF0000"; // red
-      effect = "BLINK";
     } else if (data.value_classification === "Fear") {
       color = "#FF6600"; // orange
-      effect = "BLINK";
     } else if (data.value_classification === "Neutral") {
       color = "#FFDD00"; // yellow
-      effect = "BLINK";
     } else if (data.value_classification === "Greed") {
       color = "#66CC33"; // green
-      effect = "BLINK";
     } else {
       color = "#00FF00"; // bright green
-      effect = "BLINK";
     }
     return new q.Signal({
       points: [[new q.Point(color, effect)]],
