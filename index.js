@@ -27,7 +27,7 @@ class CryptoFNGIndex extends q.DesktopApp {
 
   generateSignal(data) {
     let color;
-    let effect = "SET_COLOR;
+    let effect = "SET_COLOR";
     let message = `Crypto Market Status: ${data.value_classification} (${data.value}/100)`;
 
     if (data.value_classification === "Extreme Fear") {
