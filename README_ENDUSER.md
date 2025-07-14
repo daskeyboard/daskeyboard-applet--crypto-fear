@@ -1,8 +1,8 @@
 # Crypto Fear & Greed Index – Das Keyboard Applet
 
-Visualize the **crypto market sentiment** in real time on your Das Keyboard using the Fear and Greed Index!
+This applet displays the daily Fear & Greed Index for Bitcoin and major cryptocurrencies — a single number distilled from market sentiment and emotional signals gathered across the crypto ecosystem.
 
-![Crypto FNG Applet Preview](assets/image.png "Crypto FNG Index")
+![Crypto FNG Speedometer](assets/speedometer.png "Crypto FNG Speedometer")
 
 ## 🧠 What Is the Fear & Greed Index?
 
@@ -17,11 +17,13 @@ Always do your own research and consult with a financial advisor before making a
 
 ## 📊 Applet Features
 
-- 🔴 **Red blink** when sentiment is **Extreme Fear**
-- 🟠 **Orange blink** for **Fear**
-- 🟡 **Yellow blink** for **Neutral**
-- 🟢 **Green blink** for **Greed**
-- 💚 **Bright green blink** for **Extreme Greed**
+![Crypto FNG Applet Preview](assets/image.png "Crypto FNG Index")
+
+- 🔴 **Red glow** when sentiment is **Extreme Fear**
+- 🟠 **Orange glow** for **Fear**
+- 🟡 **Yellow glow** for **Neutral**
+- 🟢 **Green glow** for **Greed**
+- 💚 **Bright green glow** for **Extreme Greed**
 - 📡 Powered by real-time data from [alternative.me](https://alternative.me/crypto/fear-and-greed-index/)
 
 ## ⚙️ Setup Instructions

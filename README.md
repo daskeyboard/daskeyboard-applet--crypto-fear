@@ -1,6 +1,8 @@
 # Q Applet: Crypto FNG Index
 
-Track the Crypto Fear & Greed (FNG) Index in real time on your Das Keyboard Q series.
+This applet displays the daily Fear & Greed Index for Bitcoin and major cryptocurrencies — a single number distilled from market sentiment and emotional signals gathered across the crypto ecosystem.
+
+![Crypto FNG Speedometer](assets/speedometer.png "Crypto FNG Speedometer")
 
 ## Example
 
