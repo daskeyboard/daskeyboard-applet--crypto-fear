@@ -1,12 +1,12 @@
-# Crypto Fear & Greed Index – Das Keyboard Applet
+# Crypto Fear & Greed (FNG) Index – Das Keyboard Applet
 
-This applet displays the daily Fear & Greed Index for Bitcoin and major cryptocurrencies — a single number distilled from market sentiment and emotional signals gathered across the crypto ecosystem.
+This applet displays the daily Fear & Greed (FNG) Index for Bitcoin and major cryptocurrencies — a single number distilled from market sentiment and emotional signals gathered across the crypto ecosystem.
 
 ![Crypto FNG Speedometer](assets/speedometer.png "Crypto FNG Speedometer")
 
-## 🧠 What Is the Fear & Greed Index?
+## 🧠 What Is the Fear & Greed (FNG) Index?
 
-The **Fear & Greed Index** measures crypto market emotions, from panic-driven selling to euphoric buying.  
+The **Fear & Greed (FNG) Index** measures crypto market emotions, from panic-driven selling to euphoric buying.  
 Use this applet to stay emotionally grounded in your crypto decisions – without lifting a finger!
 
 ## ⚠️ Disclaimer

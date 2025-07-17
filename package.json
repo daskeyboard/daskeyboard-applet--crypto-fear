@@ -1,10 +1,10 @@
 {
   "name": "daskeyboard-applet--crypto-fear-and-greed-fng-index",
-  "displayName": "Crypto Fear and Greed FNG Index",
+  "displayName": "Crypto Fear and Greed (FNG) Index",
   "version": "1.0.0",
-  "description": "Displays the current Crypto Fear & Greed Index",
+  "description": "Displays the current Crypto Fear & Greed (FNG) Index",
   "longDescription": "Get real-time visual feedback on cryptocurrency market sentiment, from extreme fear to extreme greed.",
-  "officialProductName": "Crypto Fear and Greed FNG Index",
+  "officialProductName": "Crypto Fear and Greed (FNG) Index",
   "publisherName": "Das Keyboard",
   "publisher": "Das Keyboard",
   "authorName": "Das Keyboard",

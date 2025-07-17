@@ -1,4 +1,4 @@
-# Q Applet: Crypto FNG Index
+# Q Applet: Crypto Fear and Greed (FNG) Index
 
 This applet displays the daily Fear & Greed Index for Bitcoin and major cryptocurrencies — a single number distilled from market sentiment and emotional signals gathered across the crypto ecosystem.
 
@@ -6,9 +6,9 @@ This applet displays the daily Fear & Greed Index for Bitcoin and major cryptocu
 
 ## Example
 
-Crypto FNG Index on the F3 key.
+Crypto Fear and Greed (FNG) Index on the F3 key.
 
-![Crypto FNG Index on a Das Keyboard Q](assets/image.png "Q Crypto FNG Index")
+![Crypto Fear and Greed (FNG) Index on a Das Keyboard Q](assets/image.png "Q Crypto Fear and Greed (FNG) Index")
 
 ## Changelog
 
