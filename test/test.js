@@ -53,7 +53,7 @@ describe("CryptoFNGIndex", () => {
 
       expect(signal).toBeInstanceOf(q.Signal);
       expect(signal.points[0][0].color).toBe("#FF0000");
-      expect(signal.points[0][0].effect).toBe("BLINK");
+      expect(signal.points[0][0].effect).toBe("SET_COLOR");
       expect(signal.message).toBe(
         "Crypto Market Status: Extreme Fear (10/100)"
       );
@@ -69,7 +69,7 @@ describe("CryptoFNGIndex", () => {
 
       expect(signal).toBeInstanceOf(q.Signal);
       expect(signal.points[0][0].color).toBe("#FF6600");
-      expect(signal.points[0][0].effect).toBe("BLINK");
+      expect(signal.points[0][0].effect).toBe("SET_COLOR");
       expect(signal.message).toBe("Crypto Market Status: Fear (30/100)");
     });
 
@@ -83,7 +83,7 @@ describe("CryptoFNGIndex", () => {
 
       expect(signal).toBeInstanceOf(q.Signal);
       expect(signal.points[0][0].color).toBe("#FFDD00");
-      expect(signal.points[0][0].effect).toBe("BLINK");
+      expect(signal.points[0][0].effect).toBe("SET_COLOR");
       expect(signal.message).toBe("Crypto Market Status: Neutral (50/100)");
     });
 
@@ -97,7 +97,7 @@ describe("CryptoFNGIndex", () => {
 
       expect(signal).toBeInstanceOf(q.Signal);
       expect(signal.points[0][0].color).toBe("#66CC33");
-      expect(signal.points[0][0].effect).toBe("BLINK");
+      expect(signal.points[0][0].effect).toBe("SET_COLOR");
       expect(signal.message).toBe("Crypto Market Status: Greed (70/100)");
     });
 
@@ -111,7 +111,7 @@ describe("CryptoFNGIndex", () => {
 
       expect(signal).toBeInstanceOf(q.Signal);
       expect(signal.points[0][0].color).toBe("#00FF00");
-      expect(signal.points[0][0].effect).toBe("BLINK");
+      expect(signal.points[0][0].effect).toBe("SET_COLOR");
       expect(signal.message).toBe(
         "Crypto Market Status: Extreme Greed (90/100)"
       );
