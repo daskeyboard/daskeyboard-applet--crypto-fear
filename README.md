@@ -24,8 +24,6 @@ Always do your own research and consult with a financial advisor before making a
 - 💚 **Bright green glow** for **Extreme Greed**
 - 📡 Powered by real-time data from [alternative.me](https://alternative.me/crypto/fear-and-greed-index/)
 
-![Crypto FNG Applet Preview](assets/image.png "Crypto FNG Index")
-
 ## ⚙️ Setup Instructions
 
 1. **Install this applet** in the Das Keyboard Q software
