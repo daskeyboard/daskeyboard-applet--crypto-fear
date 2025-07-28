@@ -2,7 +2,7 @@ const q = require("daskeyboard-applet");
 const fetch = require("node-fetch");
 const logger = q.logger;
 
-class CryptoFNGIndex extends q.DesktopApp {
+class CryptoFear extends q.DesktopApp {
   constructor() {
     super();
     this.pollingInterval = 60 * 10 * 1000; // updates once every 10 minutes
@@ -10,7 +10,7 @@ class CryptoFNGIndex extends q.DesktopApp {
     logger.info("Crypto FNG Index ready to launch!");
   }
 
-  async getCryptoFNGIndex() {
+  async getCryptoFear() {
     try {
       const response = await fetch("https://api.alternative.me/fng/");
       const data = await response.json();
@@ -49,26 +49,10 @@ class CryptoFNGIndex extends q.DesktopApp {
   }
 
   async run() {
-    const cryptoFNGIndex = await this.getCryptoFNGIndex();
-    return this.generateSignal(cryptoFNGIndex);
+    const cryptoFear = await this.getCryptoFear();
+    return this.generateSignal(cryptoFear);
   }
 }
 
-module.exports = { CryptoFNGIndex: CryptoFNGIndex };
-const applet = new CryptoFNGIndex();
-
-if (require.main === module) {
-  const applet = new CryptoFNGIndex();
-
-  applet
-    .getCryptoFNGIndex()
-    .then((result) => {
-      console.log("✅ Fetched FNG Index:\n", result);
-
-      const signal = applet.generateSignal(result);
-      console.log("✅ Generated Signal:\n", JSON.stringify(signal, null, 2));
-    })
-    .catch((error) => {
-      console.error("❌ Error:", error.message);
-    });
-}
+module.exports = { CryptoFear: CryptoFear };
+const applet = new CryptoFear();
