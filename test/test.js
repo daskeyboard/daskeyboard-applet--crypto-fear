@@ -1,17 +1,17 @@
-const { CryptoFNGIndex } = require("../index");
+const { CryptoFear } = require("../index");
 const q = require("daskeyboard-applet");
 const fetch = require("node-fetch");
 
 jest.mock("node-fetch", () => jest.fn());
 
-describe("CryptoFNGIndex", () => {
+describe("CryptoFear", () => {
   let applet;
 
   beforeEach(() => {
-    applet = new CryptoFNGIndex();
+    applet = new CryptoFear();
   });
 
-  describe("getCryptoFNGIndex", () => {
+  describe("getCryptoFear", () => {
     it("fetches and parses the Crypto Fear and Greed index", async () => {
       const mockResponse = {
         data: [
@@ -26,7 +26,7 @@ describe("CryptoFNGIndex", () => {
         json: jest.fn().mockResolvedValue(mockResponse),
       });
 
-      const result = await applet.getCryptoFNGIndex();
+      const result = await applet.getCryptoFear();
       expect(result).toEqual({
         value: "42",
         value_classification: "Neutral",
@@ -36,7 +36,7 @@ describe("CryptoFNGIndex", () => {
     it("throws an error on fetch failure", async () => {
       fetch.mockRejectedValue(new Error("Network failure"));
 
-      await expect(applet.getCryptoFNGIndex()).rejects.toThrow(
+      await expect(applet.getCryptoFear()).rejects.toThrow(
         "Failed to get today's fear and greed index: Network failure"
       );
     });
