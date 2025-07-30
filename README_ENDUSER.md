@@ -1,4 +1,4 @@
-# Crypto – Das Keyboard Applet
+# Crypto Fear – Das Keyboard Applet
 
 This applet displays the daily Fear & Greed (FNG) Index for Bitcoin and major cryptocurrencies a single number distilled from market sentiment and emotional signals gathered across the crypto ecosystem.
 
