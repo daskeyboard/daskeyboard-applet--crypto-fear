@@ -7,7 +7,7 @@ class CryptoFear extends q.DesktopApp {
     super();
     this.pollingInterval = 60 * 10 * 1000; // updates once every 10 minutes
 
-    logger.info("Crypto FNG Index ready to launch!");
+    logger.info("Crypto Fear ready to launch!");
   }
 
   async getCryptoFear() {
@@ -43,7 +43,7 @@ class CryptoFear extends q.DesktopApp {
     }
     return new q.Signal({
       points: [[new q.Point(color, effect)]],
-      name: "Crypto FNG Index",
+      name: "Crypto Fear",
       message: message,
     });
   }
