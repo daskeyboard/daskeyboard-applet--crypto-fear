@@ -1,7 +1,7 @@
 {
   "name": "daskeyboard-applet--crypto-fear",
   "displayName": "Crypto Fear",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Displays the current Crypto Fear & Greed Index",
   "longDescription": "Get real-time visual feedback on cryptocurrency market sentiment, from extreme fear to extreme greed.",
   "officialProductName": "Crypto Fear",
